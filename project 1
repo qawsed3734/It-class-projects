@@ -1,0 +1,36 @@
+# a code that shows the times of he day from a 24 hour clock
+hour = int(input("Enter the hour (0-23): "))
+
+if hour < 0 or hour > 24:
+    print("Invalid input. Please enter an hour between 0 and 23.")
+elif 0 <= hour <= 5:
+        print("It's Night.")
+elif 6 <= hour <= 11:
+        print("It's Morning.")
+elif 12 <= hour <= 17:
+        print("It's Afternoon.")
+elif 18 <= hour <= 20:
+        print("It's Evening.")
+else:
+        print("It's Night.")
+        
+        number = int(input("Enter a number: "))
+# a code for identifying divisibility by 5
+def is_divisible_by_5(n):
+  if n % 5 == 0:
+    print(f"{n} is divisible by 5")
+  else:
+    print(f"{n} is not divisible by 5")
+#  acode that identifies if a person is adult, child,...
+age = int(input("Enter your age: "))
+if age < 0:
+    print("Invalid age. Age cannot be negative.")
+elif age < 13:
+    print("You are a child.")
+elif age < 20:
+    print("You are a teenager.")
+elif age < 65:
+    print("You are an adult.")
+else:
+    print("You are a senior.")
+
